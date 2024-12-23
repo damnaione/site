@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             color: #333;
+            background-color: #f4f4f9;
         }
         header {
             background: #2e8b57;
@@ -18,8 +19,24 @@
             padding: 20px;
             text-align: center;
         }
+        header img {
+            width: 120px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
         .hero {
-            background: url('https://tse1.mm.bing.net/th?id=OIP.uM5z_G870gF2Pg2OZ3JLWgHaFi&pid=Api') no-repeat center center/cover;
+            background: url('https://example.com/high-quality-image.jpg') no-repeat center center/cover;
             height: 400px;
             display: flex;
             justify-content: center;
@@ -31,66 +48,102 @@
             font-size: 3rem;
         }
         .section {
-            padding: 40px;
+            padding: 60px 20px;
             text-align: center;
         }
         .section:nth-child(even) {
-            background: #f9f9f9;
+            background: #e9f5ec;
         }
         footer {
             background: #2e8b57;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
         }
         .button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 15px 30px;
             margin-top: 20px;
             background: #2e8b57;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            transition: background 0.3s;
         }
         .button:hover {
             background: #006400;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            background: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #006400;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ccc;
         }
     </style>
 </head>
 <body>
     <header>
+        <img src="https://example.com/logo.png" alt="Green Blade Solutions Logo">
         <h1>Green Blade Solutions</h1>
-        <p>Harnessing the power of the wind for a sustainable future</p>
-    </header>
-
-    <div class="hero">
-        <h1>Clean Energy for Tomorrow</h1>
-    </div>
-
-    <div class="section">
-        <h2>About Us</h2>
-        <p>Green Blade Solutions is a small yet ambitious company dedicated to promoting renewable energy through wind power. Our mission is to contribute to a cleaner and more sustainable planet by offering reliable and innovative solutions for harnessing wind energy.</p>
-    </div>
-
-    <div class="section">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Installation of wind turbines</li>
-            <li>Maintenance and repair services</li>
-            <li>Consultation and project planning</li>
-        </ul>
-        <a href="#" class="button">Learn More</a>
-    </div>
-
-    <div class="section">
-        <h2>Why Choose Wind Energy?</h2>
-        <p>Wind energy is one of the most efficient and environmentally friendly renewable energy sources. It helps reduce carbon emissions, supports energy independence, and ensures a sustainable future for generations to come.</p>
-        <img src="https://tse3.mm.bing.net/th?id=OIP.wfjR5oJAmOZNtFoAo3VIWQHaFw&pid=Api" alt="Wind Energy" style="max-width: 100%; height: auto; margin-top: 20px;">
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Green Blade Solutions. All Rights Reserved.</p>
-        <p>Contact us: info@greenblade.com | +1 (555) 123-4567</p>
-    </footer>
-</body>
-</html>
+        <p>Используем силу
+::contentReference[oaicite:1]{index=1}
+ 
